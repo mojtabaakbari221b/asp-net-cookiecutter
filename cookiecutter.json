@@ -1,0 +1,4 @@
+{
+    "project_name": "Cook It",
+    "project_folder_name": "{{ cookiecutter.project_name.title() }}",
+}
