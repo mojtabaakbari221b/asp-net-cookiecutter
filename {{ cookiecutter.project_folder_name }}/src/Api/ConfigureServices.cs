@@ -1,4 +1,4 @@
-﻿namespace {{project_name.title()}}.Api;
+﻿namespace {{ cookiecutter.project_name.title() }}.Api;
 
 public static class ConfigureServices
 {

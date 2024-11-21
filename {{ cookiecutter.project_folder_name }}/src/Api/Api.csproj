@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>{{project_name.title()()}}.Api</RootNamespace>
+    <RootNamespace>{{ cookiecutter.project_name.title() }}.Api</RootNamespace>
     <UserSecretsId>88674038-91d8-4748-b00f-e33dab64108f</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>

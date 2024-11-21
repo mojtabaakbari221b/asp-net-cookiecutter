@@ -1,11 +1,11 @@
 ﻿global using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
-global using {{project_name.title()}}.Infrastructure.ExternalServices;
+global using {{ cookiecutter.project_name.title() }}.Infrastructure.ExternalServices;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.EntityFrameworkCore.ChangeTracking;
 global using Microsoft.EntityFrameworkCore.Diagnostics;
-global using {{project_name.title()}}.Infrastructure.Persistence;
+global using {{ cookiecutter.project_name.title() }}.Infrastructure.Persistence;
 global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.EntityFrameworkCore.Storage;
 global using Microsoft.Extensions.Configuration;

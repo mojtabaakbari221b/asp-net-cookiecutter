@@ -1,4 +1,4 @@
-﻿namespace {{project_name.title()}}.Infrastructure.Persistence;
+﻿namespace {{ cookiecutter.project_name.title() }}.Infrastructure.Persistence;
 
 public static class ConfigureServices
 {

@@ -1,4 +1,4 @@
-﻿namespace {{project_name.title()}}.Infrastructure.ExternalServices;
+﻿namespace {{ cookiecutter.project_name.title() }}.Infrastructure.ExternalServices;
 
 public static class ConfigureServices
 {
