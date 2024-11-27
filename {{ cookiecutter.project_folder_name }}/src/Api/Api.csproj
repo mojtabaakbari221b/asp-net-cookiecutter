@@ -12,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MamRp.SharedKernel" Version="0.0.4" />
     <PackageReference Include="Bogus" Version="35.6.1" />
     <PackageReference Include="DotNetEnv" Version="3.1.1" />
     <PackageReference Include="MediatR" Version="12.4.1" />
